@@ -13,8 +13,6 @@ ul {
 
 body {
     flex: 1;
-    background-color: #282A36;
-    color: #F8F8F2;
     font-family: 'Fira Code', monospace;
     display: flex;
     flex-direction: column;
@@ -35,7 +33,6 @@ img {
 
 header {
     display: flex;
-    margin-top: 64px;
     align-items: center;
 }
 
@@ -52,13 +49,17 @@ section>article {
     margin: 5px;
     padding-bottom: 15px;
     border-radius: 7px;
-    background-color: #44475A;
 }
 
-/* section>article>h3 {
-    color: #50FA7B;
+a {
+    text-decoration: none;
+    margin-right: 30px;
 }
 
-header>article>h1 {
-    color: #FF79C6;
-} */
+nav {
+    margin-top: 20px;
+}
+
+.teste {
+    color: #110000
+}
